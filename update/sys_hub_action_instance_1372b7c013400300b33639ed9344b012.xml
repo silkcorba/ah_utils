@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Lookup Record">48e05916c31332002841b63b12d3ae7f</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Email">8f4237c013400300b33639ed9344b0bc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:53:18</sys_created_on>
+        <sys_id>1372b7c013400300b33639ed9344b012</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1372b7c013400300b33639ed9344b012</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:19</sys_updated_on>
+        <ui_id>15d3b05c-1cb6-40e6-8429-a70da2a8e37d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1372b7c013400300b33639ed9344b012"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1372b7c013400300b33639ed9344b012</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:53:19</sys_created_on>
+        <sys_id>2f72b7c013400300b33639ed9344b032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">8ce05916c31332002841b63b12d3ae81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1372b7c013400300b33639ed9344b012</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:53:19</sys_created_on>
+        <sys_id>6372b7c013400300b33639ed9344b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:19</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">d792fc8cc3c632002841b63b12d3ae76</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1372b7c013400300b33639ed9344b012</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:53:19</sys_created_on>
+        <sys_id>6b72b7c013400300b33639ed9344b032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:19</sys_updated_on>
+        <value>first_name=becky</value>
+        <variable display_value="">4ce05916c31332002841b63b12d3aea5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1372b7c013400300b33639ed9344b012</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:53:19</sys_created_on>
+        <sys_id>af72b7c013400300b33639ed9344b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:19</sys_updated_on>
+        <value>first_name=becky</value>
+        <variable display_value="">e39230ccc3c632002841b63b12d3ae83</variable>
+    </sys_variable_value>
+</record_update>

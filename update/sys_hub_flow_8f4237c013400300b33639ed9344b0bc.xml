@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <label_cache>[{"name":"15d3b05c-1cb6-40e6-8429-a70da2a8e37d.record","label":"Action 1➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <name>Test Email</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:52:28</sys_created_on>
+        <sys_id>8f4237c013400300b33639ed9344b0bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Email</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_flow_8f4237c013400300b33639ed9344b0bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:53:18</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Email</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:49:26</sys_created_on>
+        <sys_id>b191b3c013400300b33639ed9344b009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_category_b191b3c013400300b33639ed9344b009</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:49:26</sys_updated_on>
+    </sys_hub_category>
+</record_update>
