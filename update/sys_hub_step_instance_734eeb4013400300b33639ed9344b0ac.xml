@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Question to Task">414eaf4013400300b33639ed9344b053</action>
+        <cid>56992116-3332-4da5-8d3f-e84cb1dcf8c2</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step </label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:35:02</sys_created_on>
+        <sys_id>734eeb4013400300b33639ed9344b0ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Script step </sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_step_instance_734eeb4013400300b33639ed9344b0ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=734eeb4013400300b33639ed9344b0ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>734eeb4013400300b33639ed9344b0ac</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:35:02</sys_created_on>
+        <sys_id>7b4eaf4013400300b33639ed9344b0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:35:02</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  var result = '';
+  
+  //determine if task is sc_req_item, or derivitive of (e.g. subclass), otherwise assume is normal task
+  var req = new GlideRecord('sc_req_item');
+  if(req.get(inputs.task.sys_id)){
+    //matched to catalog request item, and create sc_item_option_mtom
+    outputs.test = "in req";
+    var option = new GlideRecord('sc_item_option');
+    option.initialize();
+    option.item_option_new = inputs.question;
+    //option.value = inputs.value || inputs.question.default;
+    option.value = inputs.value;
+    option.order = inputs.order;
+    var option_sys_id = option.insert();
+    
+    var req_mtm = new GlideRecord('sc_item_option_mtom');
+    req_mtm.initialize();
+    req_mtm.request_item = inputs.task_sys_id;
+    req_mtm.sc_item_option = option_sys_id;
+    result = req_mtm.insert();
+  } else {
+    //default to task item and create question_answer entry
+    var task = new GlideRecord('task');
+    task.get(inputs.task);
+        outputs.test = "in task " + task.sys_class_name + ' ';
+    var qa = new GlideRecord('question_answer');
+    qa.initialize();
+    qa.question = inputs.question;
+    qa.table_name = task.sys_class_name;
+    qa.table_sys_id = inputs.task;
+    //qa.value = inputs.value || inputs.question.default;;
+    qa.value = inputs.value;
+    qa.order = inputs.order;
+    result = qa.insert();
+    
+  }
+  outputs.result=result;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=734eeb4013400300b33639ed9344b0ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>order</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>656fe38013400300b33639ed9344b090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.Order}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>696fe38013400300b33639ed9344b08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.Question.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:35:02</sys_created_on>
+        <sys_id>f74eaf4013400300b33639ed9344b0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:35:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>a56fe38013400300b33639ed9344b08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_sys_id</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>ed6fe38013400300b33639ed9344b08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.task.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>2d6fe38013400300b33639ed9344b08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.task.sys_class_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>value</field>
+        <id>734eeb4013400300b33639ed9344b0ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:39:48</sys_created_on>
+        <sys_id>a16fe38013400300b33639ed9344b090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:39:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_734eeb4013400300b33639ed9344b0ac</table>
+        <value>{{action.Value}}</value>
+    </sys_element_mapping>
+</record_update>

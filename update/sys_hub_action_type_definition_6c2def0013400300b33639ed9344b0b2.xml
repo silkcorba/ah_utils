@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.Message}}","label":"action➛Message","type":"action","ref":""}]</label_cache>
+        <latest_snapshot display_value="Log Warning">4a3da34013400300b33639ed9344b0e5</latest_snapshot>
+        <name>Log Warning</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:29:54</sys_created_on>
+        <sys_id>6c2def0013400300b33639ed9344b0b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Log Warning</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6c2def0013400300b33639ed9344b0b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:30:17</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=6c2def0013400300b33639ed9344b0b2"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <category display_value="Catalog Variables">ed2eaf4013400300b33639ed9344b04f</category>
+        <description/>
+        <label_cache>[{"name":"{{action.task}}","label":"action➛task","type":"action","ref":"task"}]</label_cache>
+        <latest_snapshot display_value="Get Variables">82017f8013400300b33639ed9344b0f0</latest_snapshot>
+        <name>Get Variables</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:41:09</sys_created_on>
+        <sys_id>1dbf678013400300b33639ed9344b0c3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Variables</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1dbf678013400300b33639ed9344b0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:46:56</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=1dbf678013400300b33639ed9344b0c3"/>
+</record_update>

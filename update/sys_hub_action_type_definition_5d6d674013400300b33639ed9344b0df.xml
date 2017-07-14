@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <category display_value="Logging">0c607b8013400300b33639ed9344b096</category>
+        <description/>
+        <label_cache>[{"name":"{{action.message}}","label":"action➛message","type":"action","ref":""}]</label_cache>
+        <latest_snapshot display_value="Log Information">a3a0fb8013400300b33639ed9344b09c</latest_snapshot>
+        <name>Log Information</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:31:03</sys_created_on>
+        <sys_id>5d6d674013400300b33639ed9344b0df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Log Information</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5d6d674013400300b33639ed9344b0df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:45:24</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=5d6d674013400300b33639ed9344b0df"/>
+</record_update>

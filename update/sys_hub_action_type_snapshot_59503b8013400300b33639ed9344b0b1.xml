@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.Message}}","label":"action➛Message","type":"action","ref":""}]</label_cache>
+        <name>Log Error</name>
+        <outputs/>
+        <parent_action display_value="Log Error">067c2b0013400300b33639ed9344b062</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 19:43:53</sys_created_on>
+        <sys_id>59503b8013400300b33639ed9344b0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log Error</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_59503b8013400300b33639ed9344b0b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 19:43:53</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=59503b8013400300b33639ed9344b0b1"/>
+</record_update>
