@@ -2,11 +2,11 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Approval Log">c584a38813000300b33639ed9344b0af</action_type>
+        <action_type display_value="">c584a38813000300b33639ed9344b0af</action_type>
         <comment/>
-        <compiled_snapshot display_value="Approval Log">c584a38813000300b33639ed9344b0af</compiled_snapshot>
+        <compiled_snapshot display_value="">c584a38813000300b33639ed9344b0af</compiled_snapshot>
         <display_text/>
-        <flow display_value="Approval Flow 3">396d6b4013400300b33639ed9344b022</flow>
+        <flow display_value="">396d6b4013400300b33639ed9344b022</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>

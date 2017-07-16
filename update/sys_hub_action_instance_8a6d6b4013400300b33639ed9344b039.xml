@@ -2,12 +2,11 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Approval Action 3">b45d274013400300b33639ed9344b076</action_type>
+        <action_type display_value="">b45d274013400300b33639ed9344b076</action_type>
         <comment/>
-        <compiled_snapshot display_value="Approval Action 3">b45d274013400300b33639ed9344b076</compiled_snapshot>
+        <compiled_snapshot display_value="">b45d274013400300b33639ed9344b076</compiled_snapshot>
         <display_text/>
-        <flow display_value="Approval Flow 3">396d6b4013400300b33639ed9344b022</flow>
+        <flow display_value="">396d6b4013400300b33639ed9344b022</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -25,17 +24,4 @@
         <ui_id>a47d1f55-6196-4413-8a92-0c6f82aba4e5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a6d6b4013400300b33639ed9344b039"/>
-    <sys_element_mapping action="delete_multiple" query="id=8a6d6b4013400300b33639ed9344b039"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>incident</field>
-        <id>8a6d6b4013400300b33639ed9344b039</id>
-        <sys_created_by>system</sys_created_by>
-        <sys_created_on>2017-07-14 19:31:05</sys_created_on>
-        <sys_id>026d6b4013400300b33639ed9344b03e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-07-14 19:31:05</sys_updated_on>
-        <table>var__m_sys_hub_action_input_b45d274013400300b33639ed9344b076</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
 </record_update>

@@ -16,4 +16,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-07-14 19:44:12</sys_updated_on>
     </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c607b8013400300b33639ed9344b096"/>
 </record_update>
