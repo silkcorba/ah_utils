@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"6564ec42-0fa4-4701-ac99-987d9af26f31.Approval State","label":"Action 1➛Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Test Approvals on Incident</name>
+        <parent_flow display_value="Test Approvals on Incident">916c771dcb000300a30bb895634c9c5a</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:22</sys_created_on>
+        <sys_id>31bc3b1dcb000300a30bb895634c9cca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Approvals on Incident</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_31bc3b1dcb000300a30bb895634c9cca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:50:22</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

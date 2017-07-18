@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log Information">a3a0fb8013400300b33639ed9344b09c</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Log Information">a3a0fb8013400300b33639ed9344b09c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Approvals on Incident">916c771dcb000300a30bb895634c9c5a</flow>
+        <order>2.1</order>
+        <parent_ui_id>a0a63c97-83a3-4df8-ab57-d6aa2c3e3706</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:18</sys_created_on>
+        <sys_id>38bc3b1dcb000300a30bb895634c9c82</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_instance_38bc3b1dcb000300a30bb895634c9c82</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:58:56</sys_updated_on>
+        <ui_id>7c3185ac-671f-4b26-9669-9b8db1d17207</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38bc3b1dcb000300a30bb895634c9c82"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>38bc3b1dcb000300a30bb895634c9c82</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:18</sys_created_on>
+        <sys_id>f4bc3b1dcb000300a30bb895634c9c86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:50:18</sys_updated_on>
+        <value>becky: Good news it was approved</value>
+        <variable display_value="">63a0fb8013400300b33639ed9344b0c4</variable>
+    </sys_variable_value>
+</record_update>

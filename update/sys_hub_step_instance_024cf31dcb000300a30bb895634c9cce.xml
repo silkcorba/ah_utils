@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ask for Approval on Incident">60db731dcb000300a30bb895634c9c44</action>
+        <cid>6434ae1c-7efd-4d7a-a91f-8e648888bbea</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Lookup David</label>
+        <order>3</order>
+        <outputs/>
+        <step_type display_value="Lookup Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:48:29</sys_created_on>
+        <sys_id>024cf31dcb000300a30bb895634c9cce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lookup David</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_step_instance_024cf31dcb000300a30bb895634c9cce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:57:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=024cf31dcb000300a30bb895634c9cce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>024cf31dcb000300a30bb895634c9cce</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:48:29</sys_created_on>
+        <sys_id>0a4cf31dcb000300a30bb895634c9cd4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:57:36</sys_updated_on>
+        <value>name=David Loo</value>
+        <variable display_value="">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>024cf31dcb000300a30bb895634c9cce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:48:29</sys_created_on>
+        <sys_id>464cf31dcb000300a30bb895634c9cd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:48:29</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask for Approval on Incident">8f6e37ddcb000300a30bb895634c9cb1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Ask for Approval on Incident">8f6e37ddcb000300a30bb895634c9cb1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Approvals on Incident">916c771dcb000300a30bb895634c9c5a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:18</sys_created_on>
+        <sys_id>30bc3b1dcb000300a30bb895634c9c79</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_instance_30bc3b1dcb000300a30bb895634c9c79</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:58:56</sys_updated_on>
+        <ui_id>6564ec42-0fa4-4701-ac99-987d9af26f31</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30bc3b1dcb000300a30bb895634c9c79"/>
+    <sys_element_mapping action="delete_multiple" query="id=30bc3b1dcb000300a30bb895634c9c79"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request_Incident</field>
+        <id>30bc3b1dcb000300a30bb895634c9c79</id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-07-18 17:58:55</sys_created_on>
+        <sys_id>47ae3fddcb000300a30bb895634c9c06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:58:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8f6e37ddcb000300a30bb895634c9cb1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request_Incident</field>
+        <id>30bc3b1dcb000300a30bb895634c9c79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:18</sys_created_on>
+        <sys_id>7cbc3b1dcb000300a30bb895634c9c7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:50:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_60db731dcb000300a30bb895634c9c44</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request_Incident</field>
+        <id>30bc3b1dcb000300a30bb895634c9c79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:55:04</sys_created_on>
+        <sys_id>aacd73ddcb000300a30bb895634c9ca2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:55:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_55cd33ddcb000300a30bb895634c9cf7</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request_Incident</field>
+        <id>30bc3b1dcb000300a30bb895634c9c79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:18</sys_created_on>
+        <sys_id>bcbc3b1dcb000300a30bb895634c9c96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:50:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_025c371dcb000300a30bb895634c9cda</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request_Incident</field>
+        <id>30bc3b1dcb000300a30bb895634c9c79</id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-07-18 17:50:53</sys_created_on>
+        <sys_id>d5dcb75dcb000300a30bb895634c9c99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-07-18 17:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66bc7b1dcb000300a30bb895634c9c85</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+</record_update>
