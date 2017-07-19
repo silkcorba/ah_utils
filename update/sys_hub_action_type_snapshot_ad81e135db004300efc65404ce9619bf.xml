@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <category display_value="Approvals">34dfd1f1db004300efc65404ce9619eb</category>
+        <description/>
+        <label_cache>[{"name":"{{action.Base_Date}}","label":"action➛Base Date","type":"action","ref":""},{"name":"{{action.Request}}","label":"action➛Request","type":"action","ref":"incident"},{"name":"{{step[a6548d92-b7f4-4063-a432-1e8b35f594a2].record}}","label":"step➛Lookup Record step ➛User Record","type":"step","ref":"sys_user"}]</label_cache>
+        <name>Approve by Relative Date</name>
+        <outputs/>
+        <parent_action display_value="Approve by Relative Date">6adf15f1db004300efc65404ce96194b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 19:49:19</sys_created_on>
+        <sys_id>ad81e135db004300efc65404ce9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve by Relative Date</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_ad81e135db004300efc65404ce9619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 19:49:19</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=ad81e135db004300efc65404ce9619bf"/>
+</record_update>

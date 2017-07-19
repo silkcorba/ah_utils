@@ -2,7 +2,7 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Log Warning">4a3da34013400300b33639ed9344b0e5</action_type>
+        <action_type display_value="Log Warning">d46fa570db4c0300efc65404ce9619f0</action_type>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -13,17 +13,31 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-07-14 19:45:09</sys_created_on>
         <sys_id>f790fb8013400300b33639ed9344b017</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
         <sys_update_name>sys_hub_action_instance_f790fb8013400300b33639ed9344b017</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-14 19:45:10</sys_updated_on>
+        <sys_updated_on>2017-07-19 18:15:52</sys_updated_on>
         <ui_id>c7a12397-2504-4330-8c39-935393d9f829</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f790fb8013400300b33639ed9344b017"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f790fb8013400300b33639ed9344b017</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 18:15:52</sys_created_on>
+        <sys_id>782c0df9db8c0300efc65404ce961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 18:15:52</sys_updated_on>
+        <value>my warning</value>
+        <variable display_value="">186fa570db4c0300efc65404ce9619f3</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>f790fb8013400300b33639ed9344b017</document_key>
