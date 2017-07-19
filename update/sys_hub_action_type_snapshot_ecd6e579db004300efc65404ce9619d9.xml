@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.incident}}","label":"action➛incident","type":"action","ref":"incident"},{"name":"{{step[bd0306ca-7cc1-420b-9e0e-872f8efd768b].record}}","label":"step➛Lookup Record step ➛User Record","type":"step","ref":"sys_user"},{"name":"{{step[0a995f59-7f73-4a7c-9c85-e1355fc05235].state}}","label":"step➛Ask for Approval step ➛Approval State","type":"step","ref":""}]</label_cache>
+        <name>approval prb</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="approval prb">7e362179db004300efc65404ce961993</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 20:12:27</sys_created_on>
+        <sys_id>ecd6e579db004300efc65404ce9619d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>approval prb</sys_name>
+        <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_ecd6e579db004300efc65404ce9619d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 20:12:28</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=ecd6e579db004300efc65404ce9619d9"/>
+    <sys_element_mapping action="delete_multiple" query="id=ecd6e579db004300efc65404ce9619d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>ecd6e579db004300efc65404ce9619d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 20:12:28</sys_created_on>
+        <sys_id>45d62979db004300efc65404ce961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 20:12:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ecd6e579db004300efc65404ce9619d9</table>
+        <value>{{step[0a995f59-7f73-4a7c-9c85-e1355fc05235].state}}</value>
+    </sys_element_mapping>
+</record_update>

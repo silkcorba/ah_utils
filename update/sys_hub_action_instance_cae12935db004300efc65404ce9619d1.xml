@@ -3,7 +3,7 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Approve by Relative Date">ad81e135db004300efc65404ce9619bf</action_type>
+        <action_type display_value="Approve by Relative Date">7e13e575db004300efc65404ce961914</action_type>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-07-19 19:50:59</sys_created_on>
         <sys_id>cae12935db004300efc65404ce9619d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="AH Utilities" source="sn_ah_utilities">2e7b630013400300b33639ed9344b0c6</sys_package>
         <sys_policy/>
         <sys_scope display_value="AH Utilities">2e7b630013400300b33639ed9344b0c6</sys_scope>
         <sys_update_name>sys_hub_action_instance_cae12935db004300efc65404ce9619d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-19 19:50:59</sys_updated_on>
+        <sys_updated_on>2017-07-19 19:56:26</sys_updated_on>
         <ui_id>5557a6fd-75bb-4e38-b75c-513dee6c9576</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cae12935db004300efc65404ce9619d1"/>
@@ -53,6 +53,20 @@
         <value/>
         <variable display_value="">40c02df1db004300efc65404ce96190a</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cae12935db004300efc65404ce9619d1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 19:56:26</sys_created_on>
+        <sys_id>c2232975db004300efc65404ce961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 19:56:26</sys_updated_on>
+        <value/>
+        <variable display_value="">7a13e575db004300efc65404ce961917</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cae12935db004300efc65404ce9619d1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>Base_Date</field>
@@ -64,6 +78,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-07-19 19:50:59</sys_updated_on>
         <table>var__m_sys_hub_action_input_6adf15f1db004300efc65404ce96194b</table>
+        <value>{{Created_1.run_start_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Base_Date</field>
+        <id>cae12935db004300efc65404ce9619d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 19:56:26</sys_created_on>
+        <sys_id>42232975db004300efc65404ce961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 19:56:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7e13e575db004300efc65404ce961914</table>
         <value>{{Created_1.run_start_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -100,6 +126,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-07-19 19:50:59</sys_updated_on>
         <table>var__m_sys_hub_action_input_6adf15f1db004300efc65404ce96194b</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Request</field>
+        <id>cae12935db004300efc65404ce9619d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 19:56:26</sys_created_on>
+        <sys_id>8e232975db004300efc65404ce961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 19:56:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7e13e575db004300efc65404ce961914</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
 </record_update>
